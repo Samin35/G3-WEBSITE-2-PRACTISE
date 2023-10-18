@@ -1,0 +1,85 @@
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alumni+Sans+Collegiate+One&family=Anek+Telugu:wght@300;400&family=Antonio:wght@600&family=Black+Ops+One&family=Libre+Baskerville&family=Oswald:wght@200;300;500&family=Poppins:wght@500&family=Roboto:wght@500;900&family=Rubik+Dirt&family=Rubik:ital,wght@1,300&family=Secular+One&family=Tilt+Neon&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:wght@700&family=Young+Serif&display=swap');
+
+}
+
+nav>ul>li {
+    list-style: none;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+header {
+    padding: 30px 210px 30px 210px;
+    background-color: rgba(255, 144, 14, 0.10);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 18px;
+}
+
+.btn {
+    color: white;
+    background-color: #FF900E;
+    padding: 19px 24px 19px 24px;
+    border: 0;
+    border-radius: 8px;
+}
+
+.brand {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.brand-title {
+    font-size: 3.125rem;
+
+    font-weight: 700;
+
+}
+
+.brand-para {
+    font-size: 1rem;
+
+    font-weight: 400;
+}
+
+.brand-image {
+    width: 100%;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:576px) {
+    header {
+        padding: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav>ul {
+        flex-direction: column;
+    }
+
+    .brand {
+        margin-top: 10px;
+
+    }
+}
+
+
+
+@media screen and (min-width:577px) and (max-width:768px) {}
